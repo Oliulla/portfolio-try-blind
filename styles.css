@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    font-size: 40px;
+}
+/* h3 {
+    font-size: 36px;
+} */
+
+p {
+    font-size: 20px;
+}
+.intro {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 45px;
+}
+
+.portfolio {
+    color: #0703d6;
+}
+
+.clr-o {
+    color: #ff0000;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.half-width img {
+    width: 65%;
+}
+
+.hire-btn {
+    text-decoration: none;
+    background-image: linear-gradient(#e00d0df8, #9504ce);
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.bg-img {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat
+}
+
+.bg-img-sec2 {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.padd {
+    padding-right: 110px;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) inset, 0 4px 6px rgba(0, 0, 0, 0.9) inset;
+    padding: 10px 15px;
+    margin: 10px 60px;
+    border-radius: 6px;
+}
+
+.exp-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+pre {
+    text-align: center;
+}
+
+.container-shadow {
+    margin-bottom: 100px;
+}
+
+.left-shadow {
+    border-left: 4px solid #ffbb00;
+}
+
+.right-shadow {
+    border-left: 4px solid #ff0000;
+}
